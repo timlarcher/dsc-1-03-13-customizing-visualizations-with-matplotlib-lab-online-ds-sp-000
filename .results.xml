@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="1" failures="0" name="pytest" skips="0" tests="1" time="0.507"><testcase classname="" file="pytests/test_index.py" name="pytests.test_index" time="0"><error message="collection failure">/opt/conda/envs/learn-env/lib/python3.6/site-packages/_pytest/python.py:488: in _importtestmodule
+    mod = self.fspath.pyimport(ensuresyspath=importmode)
+/opt/conda/envs/learn-env/lib/python3.6/site-packages/py/_path/local.py:668: in pyimport
+    __import__(modname)
+&lt;frozen importlib._bootstrap&gt;:971: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:955: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:656: in _load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:626: in _load_backward_compatible
+    ???
+/opt/conda/envs/learn-env/lib/python3.6/site-packages/_pytest/assertion/rewrite.py:226: in load_module
+    py.builtin.exec_(co, mod.__dict__)
+pytests/test_index.py:7: in &lt;module&gt;
+    from ipynb.fs.full.index import * # variable names go here
+&lt;frozen importlib._bootstrap&gt;:971: in _find_and_load
+    ???
+&lt;frozen importlib._bootstrap&gt;:955: in _find_and_load_unlocked
+    ???
+&lt;frozen importlib._bootstrap&gt;:665: in _load_unlocked
+    ???
+&lt;frozen importlib._bootstrap_external&gt;:674: in exec_module
+    ???
+/opt/conda/envs/learn-env/lib/python3.6/site-packages/ipynb/fs/full/__init__.py:43: in get_code
+    return self.source_to_code(code_from_ipynb(nb), self.path)
+E     File &quot;/home/timlarcher/dsc-1-03-13-customizing-visualizations-with-matplotlib-lab-online-ds-sp-000/index.ipynb&quot;, line 44
+E       %matplotlib inline
+E       ^
+E   SyntaxError: invalid syntax</error></testcase></testsuite>
